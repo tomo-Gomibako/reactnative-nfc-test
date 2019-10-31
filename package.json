@@ -18,7 +18,13 @@
     "@types/react": "^16.8.23",
     "@types/react-native": "^0.57.65",
     "babel-preset-expo": "^7.1.0",
+    "husky": "^3.0.9",
     "typescript": "^3.6.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc -p . -noEmit"
+    }
   },
   "private": true
 }
