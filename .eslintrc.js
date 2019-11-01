@@ -28,6 +28,8 @@ module.exports = {
             "extensions": [".js", ".jsx", "ts", "tsx"]
         }],
         "quotes": [1, "double"],
-        "semi": [2, "never"]
+        "semi": [2, "never"],
+        "comma-dangle": [2, "never"],
+        "import/no-unresolved": "off"
     }
 };
